@@ -25,9 +25,9 @@ export default function RootLayout({
         
         <main>
           <Navbar />
-          
-          <Page1 /> 
           <Image1/>
+          <Page1 /> 
+          
         </main>
         <Footer />
       </body>
