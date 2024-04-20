@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Page1 from "./components/Page1";
 import Image1 from "./components/Image1";
+import Video from "./components/Video";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -26,6 +27,7 @@ export default function RootLayout({
         <main>
           <Navbar />
           <Image1/>
+          <Video/>
           <Page1 /> 
           
         </main>
