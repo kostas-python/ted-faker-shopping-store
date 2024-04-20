@@ -82,7 +82,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="bg-white">
+    <div className="bg-white">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
@@ -352,11 +352,11 @@ export default function Navbar() {
                                 <Transition
                                   as={Fragment}
                                   enter="transition ease-out duration-200"
-                                  enterFrom="opacity-0"
+                                  enterFrom="opacity-100"
                                   enterTo="opacity-100"
                                   leave="transition ease-in duration-150"
                                   leaveFrom="opacity-100"
-                                  leaveTo="opacity-0"
+                                  leaveTo="opacity-100"
                                 >
                                   <Popover.Panel className="absolute inset-x-0 top-full text-gray-500 sm:text-sm">
                                     {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
@@ -534,6 +534,6 @@ export default function Navbar() {
           </div>
         </nav>
       </header>
-    </nav>
+    </div>
   )
 }
