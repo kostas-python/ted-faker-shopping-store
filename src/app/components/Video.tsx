@@ -1,6 +1,6 @@
 export default function Video() {
     return (
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4">
         <div className="w-full aspect-w-16 aspect-h-9">
           <iframe
             className="w-full aspect-video md:aspect-aspect-w-16 aspect-h-9 pt-6"
