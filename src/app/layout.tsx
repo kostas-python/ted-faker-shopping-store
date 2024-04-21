@@ -1,15 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./global.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Page1 from "./components/Page1";
-import Image1 from "./components/Image1";
-import Video from "./components/Video";
-import Block1 from "./components/Block1";
-import Block2 from "./components/Block2";
-import Link from "next/link";
-import { useRouter } from 'next/router';
+
 
 const inter = Inter({ subsets: ["latin"] });
 
