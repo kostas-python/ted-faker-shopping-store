@@ -1,5 +1,4 @@
 import Head from 'next/head'; 
-import { Link } from 'react-router-dom';
 import RootLayout from './layout';
 import Navbar from './components/Navbar';
 import Block1 from './components/Block1';
@@ -23,7 +22,7 @@ export default function Home() {
       <Navbar />
       
         
-          <Video/>
+         {/* <Video/> */}
           <Image1/>
            <Page1 />
            

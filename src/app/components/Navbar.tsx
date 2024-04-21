@@ -320,7 +320,7 @@ export default function Navbar() {
                 <div className="flex h-16 items-center justify-between">
                   {/* Logo (lg+) */}
                   <div className="hidden lg:flex lg:items-center">
-                    <a href="#">
+                    <a href="/">
                       <span className="sr-only">Your Company</span>
                       <img
                         className="h-8 w-auto"
