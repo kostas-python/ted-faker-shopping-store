@@ -10,9 +10,11 @@ export default function Home() {
         <title>Home Page</title>
         <meta name="description" content="Welcome to the home page" />
       </Head>
-      <div>
+      <body className="h-full">
+
+
+      </body>
       
-      </div>
     </RootLayout>
   );
 }

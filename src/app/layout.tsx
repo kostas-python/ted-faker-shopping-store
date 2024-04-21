@@ -8,6 +8,7 @@ import Image1 from "./components/Image1";
 import Video from "./components/Video";
 import Block1 from "./components/Block1";
 import Block2 from "./components/Block2";
+import Link from "next/link";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -23,19 +24,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        
+    <html lang="en" className="h-full bg-white">
+      
+      <body className="h-full">
+      <Navbar />
+          {children}
         <main>
-          <Navbar />
           
+          
+          
+              
           <Video/>
           <Image1/>
            <Page1 />
           
-          
-          <Block1 />
           <Block2 />
+          <Block1 />
+          
         </main>
         <Footer />
       </body>

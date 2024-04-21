@@ -4,6 +4,7 @@ import { Fragment, useState  } from 'react'
 import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link';
 
 
 
@@ -231,10 +232,11 @@ export default function Navbar() {
                     </a>
                   </div>
                   <div className="flow-root">
-                    <a href="#" className="-m-2 block p-2 font-medium text-gray-900">
+                  <Link href="/sign" className="-m-2 block p-2 font-medium text-gray-900">
                       Sign in
-                    </a>
-                  </div>
+                    
+                  </Link>
+                </div>
                 </div>
 
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
@@ -300,13 +302,13 @@ export default function Navbar() {
               </p>
 
               <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                <a href="#" className="text-sm font-medium text-white hover:text-gray-100">
+                <a href=".src/app/components/accounts/createAccount.tsx" className="text-sm font-medium text-white hover:text-gray-100">
                   Create an account
                 </a>
                 <span className="h-6 w-px bg-gray-600" aria-hidden="true" />
-                <a href="#" className="text-sm font-medium text-white hover:text-gray-100">
+                <Link href="/sign" className="text-sm font-medium text-white hover:text-gray-100">
                   Sign in
-                </a>
+                </Link>
               </div>
             </div>
           </div>
