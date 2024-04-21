@@ -9,7 +9,7 @@ import Video from "./components/Video";
 import Block1 from "./components/Block1";
 import Block2 from "./components/Block2";
 import Link from "next/link";
-
+import { useRouter } from 'next/router';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,25 +23,26 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
+
+
   return (
     <html lang="en" className="h-full bg-white">
       
       <body className="h-full">
+      {children}
       <Navbar />
-          {children}
-        <main>
-          
-          
-          
-              
+      
+        
           <Video/>
           <Image1/>
            <Page1 />
-          
+           
           <Block2 />
           <Block1 />
           
-        </main>
+        
         <Footer />
       </body>
     </html>
