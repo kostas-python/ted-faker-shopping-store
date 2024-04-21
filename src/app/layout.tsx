@@ -26,24 +26,12 @@ export default function RootLayout({
 
   
 
-
   return (
     <html lang="en" className="h-full bg-white">
       
       <body className="h-full">
       {children}
-      <Navbar />
       
-        
-          <Video/>
-          <Image1/>
-           <Page1 />
-           
-          <Block2 />
-          <Block1 />
-          
-        
-        <Footer />
       </body>
     </html>
   );

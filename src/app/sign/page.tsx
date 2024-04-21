@@ -2,11 +2,16 @@
 'use client'
 import Link from 'next/link';
 import React from 'react';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 export default function Sign() {
     return (
       <>
-      <Link href="/sign">sign</Link>
+      
+      <Navbar/>
+      <Link href="/sign"></Link>
+      
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
             <img
@@ -78,7 +83,9 @@ export default function Sign() {
             </p>
           </div>
         </div>
+        <Footer/>
       </>
     )
   }
+  
   
