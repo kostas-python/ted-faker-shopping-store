@@ -360,7 +360,7 @@ export default function Navbar() {
                                   leaveFrom="opacity-100"
                                   leaveTo="opacity-100"
                                 >
-                                  <Popover.Panel className="absolute inset-x-0 top-full text-gray-500 sm:text-sm">
+                                  <Popover.Panel className="absolute inset-x-0 top-full text-gray-500 sm:text-sm z-50">
                                     {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                                     <div className="absolute inset-0 top-1/2 bg-white shadow" aria-hidden="true" />
 

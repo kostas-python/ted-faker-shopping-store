@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       
         
-         {/* <Video/> */}
+          <Video/> 
           <Image1/>
            <Page1 />
            
