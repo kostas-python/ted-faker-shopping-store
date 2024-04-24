@@ -42,7 +42,7 @@ const navigation = {
       ],
       collection: [
         { name: 'Everything', href: '#' },
-        { name: 'Core', href: '#' },
+        { name: 'Work', href: '#' },
         { name: 'New Arrivals', href: '#' },
         { name: 'Sale', href: '#' },
       ],
@@ -50,7 +50,7 @@ const navigation = {
         { name: 'Artwork Tees', href: '#' },
         { name: 'Pants', href: '#' },
         { name: 'Accessories', href: '#' },
-        { name: 'Boxers', href: '#' },
+        { name: 'Watches', href: '#' },
         { name: 'Basic Tees', href: '#' },
       ],
     },
