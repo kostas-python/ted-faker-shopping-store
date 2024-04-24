@@ -32,13 +32,6 @@ const navigation = {
         { name: 'Underwear', href: '#' },
         { name: 'Accessories', href: '#' },
       ],
-      brands: [
-        { name: 'Full Nelson', href: '#' },
-        { name: 'My Way', href: '#' },
-        { name: 'Re-Arranged', href: '#' },
-        { name: 'Counterfeit', href: '#' },
-        { name: 'Significant Other', href: '#' },
-      ],
     },
     {
       name: 'Men',
@@ -59,13 +52,6 @@ const navigation = {
         { name: 'Accessories', href: '#' },
         { name: 'Boxers', href: '#' },
         { name: 'Basic Tees', href: '#' },
-      ],
-      brands: [
-        { name: 'Significant Other', href: '#' },
-        { name: 'My Way', href: '#' },
-        { name: 'Counterfeit', href: '#' },
-        { name: 'Re-Arranged', href: '#' },
-        { name: 'Full Nelson', href: '#' },
       ],
     },
   ],
@@ -185,21 +171,6 @@ export default function Navbar() {
                               </p>
                               <ul role="list" aria-labelledby="mobile-collection-heading" className="mt-6 space-y-6">
                                 {category.collection.map((item) => (
-                                  <li key={item.name} className="flex">
-                                    <a href={item.href} className="text-gray-500">
-                                      {item.name}
-                                    </a>
-                                  </li>
-                                ))}
-                              </ul>
-                            </div>
-
-                            <div>
-                              <p id="mobile-brand-heading" className="font-medium text-gray-900">
-                                Brands
-                              </p>
-                              <ul role="list" aria-labelledby="mobile-brand-heading" className="mt-6 space-y-6">
-                                {category.brands.map((item) => (
                                   <li key={item.name} className="flex">
                                     <a href={item.href} className="text-gray-500">
                                       {item.name}
@@ -419,25 +390,6 @@ export default function Navbar() {
                                                 className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
                                               >
                                                 {category.collection.map((item) => (
-                                                  <li key={item.name} className="flex">
-                                                    <a href={item.href} className="hover:text-gray-800">
-                                                      {item.name}
-                                                    </a>
-                                                  </li>
-                                                ))}
-                                              </ul>
-                                            </div>
-
-                                            <div>
-                                              <p id="desktop-brand-heading" className="font-medium text-gray-900">
-                                                Brands
-                                              </p>
-                                              <ul
-                                                role="list"
-                                                aria-labelledby="desktop-brand-heading"
-                                                className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
-                                              >
-                                                {category.brands.map((item) => (
                                                   <li key={item.name} className="flex">
                                                     <a href={item.href} className="hover:text-gray-800">
                                                       {item.name}
