@@ -20,7 +20,7 @@ const navigation = {
         { name: 'Underwear', href: '#' },
       ],
       collection: [
-        { name: 'Everything', href: '#' },
+        { name: 'Dresses', href: '#' },
         { name: 'Core', href: '#' },
         { name: 'New Arrivals', href: '#' },
         { name: 'Sale', href: '#' },
@@ -167,7 +167,7 @@ export default function Navbar() {
                           <div className="grid grid-cols-1 gap-x-6 gap-y-10">
                             <div>
                               <p id="mobile-collection-heading" className="font-medium text-gray-900">
-                                Collection
+                                Magazine
                               </p>
                               <ul role="list" aria-labelledby="mobile-collection-heading" className="mt-6 space-y-6">
                                 {category.collection.map((item) => (
@@ -382,7 +382,7 @@ export default function Navbar() {
                                           <div className="grid grid-cols-2 gap-x-8 gap-y-10">
                                             <div>
                                               <p id="desktop-collection-heading" className="font-medium text-gray-900">
-                                                Collection
+                                                Magazine
                                               </p>
                                               <ul
                                                 role="list"
