@@ -15,21 +15,21 @@ const navigation = {
     {
       name: 'Women',
       featured: [
-        { name: 'Sleep', href: '/sleep' },
+        { name: 'Sale', href: '/sale' },
         { name: 'Swimwear', href: 'swimwear' },
         { name: 'Underwear', href: '/underwear' },
       ],
       collection: [
-        { name: 'Dresses', href: '#' },
+        { name: 'Dresses', href: '/dresses' },
         { name: 'Core', href: '#' },
         { name: 'New Arrivals', href: '#' },
-        { name: 'Sale', href: '#' },
+        { name: 'More', href: 'more' },
       ],
       categories: [
         { name: 'Basic Tees', href: 'basictee' },
         { name: 'Artwork Tees', href: 'artworktee' },
         { name: 'Bottoms', href: '/bottoms' },
-        { name: 'bags', href: '/bags' },
+        { name: 'Bags', href: '/bags' },
         { name: 'Accessories', href: '/accesories' },
       ],
     },
