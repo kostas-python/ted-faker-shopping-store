@@ -26,11 +26,11 @@ const navigation = {
         { name: 'Sale', href: '#' },
       ],
       categories: [
-        { name: 'Basic Tees', href: '#' },
-        { name: 'Artwork Tees', href: '#' },
-        { name: 'Bottoms', href: '#' },
-        { name: 'Underwear', href: '#' },
-        { name: 'Accessories', href: '#' },
+        { name: 'Basic Tees', href: 'basictee' },
+        { name: 'Artwork Tees', href: 'artworktee' },
+        { name: 'Bottoms', href: '/bottoms' },
+        { name: 'bags', href: '/bags' },
+        { name: 'Accessories', href: '/accesories' },
       ],
     },
     {
