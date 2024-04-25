@@ -15,9 +15,9 @@ const navigation = {
     {
       name: 'Women',
       featured: [
-        { name: 'Sleep', href: '#' },
-        { name: 'Swimwear', href: '#' },
-        { name: 'Underwear', href: '#' },
+        { name: 'Sleep', href: '/sleep' },
+        { name: 'Swimwear', href: 'swimwear' },
+        { name: 'Underwear', href: '/underwear' },
       ],
       collection: [
         { name: 'Dresses', href: '#' },
