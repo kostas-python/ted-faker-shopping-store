@@ -56,8 +56,8 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Company', href: '#' },
-    { name: 'Stores', href: '#' },
+    { name: 'About Us', href: '/aboutus' },
+    { name: 'Find Us', href: '/findus' },
   ],
 }
 
