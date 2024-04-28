@@ -5,7 +5,7 @@ const navigation = {
       { name: 'Contact Us', href: '/contact' },
       { name: 'Delivery & Returns', href: '/delivery' },
       { name: 'Careers', href: '/careers' },
-      { name: 'Contact Us', href: '/contact' },
+      { name: 'Stores', href: '/stores' },
       { name: 'Help & FAQ', href: '/help' },
     ],
     social: [
