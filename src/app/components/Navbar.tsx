@@ -56,7 +56,7 @@ const navigation = {
     },
   ],
   pages: [
-    { name: 'Contact Us', href: '//contact' },
+    { name: 'Contact Us', href: '/contact' },
     { name: 'Stores', href: '/stores' },
   ],
 }
