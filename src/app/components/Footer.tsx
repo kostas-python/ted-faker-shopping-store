@@ -4,7 +4,7 @@ const navigation = {
     main: [
       { name: 'Contact Us', href: '/contact' },
       { name: 'Delivery & Returns', href: '/delivery' },
-      { name: 'Careers', href: '#' },
+      { name: 'Careers', href: '/careers' },
       { name: 'Contact Us', href: '/contact' },
       { name: 'Help & FAQ', href: '/help' },
     ],
