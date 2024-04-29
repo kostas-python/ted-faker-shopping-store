@@ -2,6 +2,8 @@
 
 import { Disclosure } from '@headlessui/react'
 import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const faqs = [
   {
@@ -14,6 +16,10 @@ const faqs = [
 
 export default function Example() {
   return (
+    <>
+
+    <Navbar />
+
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
@@ -46,5 +52,8 @@ export default function Example() {
         </div>
       </div>
     </div>
+    
+    <Footer />
+    </>
   )
 }
