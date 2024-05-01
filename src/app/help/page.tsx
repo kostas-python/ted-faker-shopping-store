@@ -21,6 +21,20 @@ const faqs = [
           title: 'Shipping costs',
           description: 'We cover the cost of return shipping within the first 30 days.'
         }
+      ],
+      subcategories1: [
+        {
+          title1: 'How do i acceess my account?', 
+          description1: 'You can simply sign in to your account on top right of the page and save all your personal and bank details for faster check out.'
+        },
+        {
+          title1: 'Online returns',
+          description1: 'You can initiate a return through our online portal.'
+        },
+        {
+          title1: 'Shipping costs',
+          description1: 'We cover the cost of return shipping within the first 30 days.'
+        }
       ]
   },
   {
