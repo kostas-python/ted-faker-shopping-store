@@ -22,25 +22,23 @@ const faqs = [
           description: 'We cover the cost of return shipping within the first 30 days.'
         }
       ],
-      subcategories1: [
-        {
-          title1: 'How do i acceess my account?', 
-          description1: 'You can simply sign in to your account on top right of the page and save all your personal and bank details for faster check out.'
-        },
-        {
-          title1: 'Online returns',
-          description1: 'You can initiate a return through our online portal.'
-        },
-        {
-          title1: 'Shipping costs',
-          description1: 'We cover the cost of return shipping within the first 30 days.'
-        }
-      ]
   },
   {
     question: "Delivery",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    subcategories: [
+        {
+          title: 'Which delivery options are available for me?', 
+          description: 'Here at Ted, we are working around the clock to keep our online services ticking over smoothly.We are very busy right now, and our team is working tirelessly to ensure all customers orders are delivered. Some orders may take slightly longer than expected - please allow an additional 2-3 days for your parcel to arrive. Please be aware that Customer Service response times are also a little stretched at the moment so please allow for 48-72 hours for a response.',
+        },
+        {
+          title: 'Can i track my order?',
+          description: 'You can track your Ted Baker online order using your order number and email address by clicking HERE. If you have not yet received an Order Dispatch email do not fret, it will be with you soon (up to 5 days after you have placed your order).If you need any help, you can Contact Us.'
+        },
+        {
+          title: 'Shipping costs',
+          description: 'Standard delivery 9.95£, free for oders over 100£, 5 working days'
+        }
+      ],
   },
   {
     question: "Returns",
@@ -96,7 +94,7 @@ export default function Help() {
                           <>
                             <div className="mt-4">
                               <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                                <h3 className="text-base font-semibold">How do i access my account?</h3>
+                                <h3 className="text-base font-semibold">Information</h3>
                                 <span className="ml-6 flex h-7 items-center">
                                   {open ? (
                                     <ChevronUpIcon className="h-6 w-6" aria-hidden="true" />
