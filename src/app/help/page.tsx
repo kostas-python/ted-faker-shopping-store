@@ -45,7 +45,7 @@ const faqs = [
   {
     question: "Returns",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    'Returns have never been easier, just pop up to your nearest local store and just your order with the return printed label.',
   },
   {
     question: "Placing an order",
