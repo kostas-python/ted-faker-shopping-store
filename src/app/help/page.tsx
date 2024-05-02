@@ -48,12 +48,12 @@ const faqs = [
     'Returns have never been easier, just pop up to your nearest local store and just your order with the return printed label.',
   },
   {
-    question: "Placing an order",
+    question: "Payments",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      'You can pay for your items using the following payment methods: Mastercard,   Visa,  Paypal',
   },
   {
-    question: "Payments",
+    question: "Careers",
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
