@@ -14,8 +14,8 @@ const faqs = [
           description: 'You can simply sign in to your account on top right of the page and save all your personal and bank details for faster check out.'
         },
         {
-          title: 'Online returns',
-          description: 'You can initiate a return through our online portal.'
+          title: 'How do i unsubscribeor update my marketing preferences?',
+          description: 'If you would like to update your marketing preferences, please log in to your account and just untick the subscribe box under the newsletter section.  You can also email us on ask.ted@tedfaker.com and we will update your preferences for you. Please note that it may take up to 7 days for any changes to take effect.'
         },
         {
           title: 'Shipping costs',
