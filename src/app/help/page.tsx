@@ -55,7 +55,7 @@ const faqs = [
   {
     question: "Careers",
     answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      'We often looking for modern people to work for us,  please drop you CV through our contact us page and we will come back to you in 5 working days.'
   },
   
   // More questions...
