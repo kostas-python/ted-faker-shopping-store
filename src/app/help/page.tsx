@@ -113,7 +113,7 @@ export default function Help() {
                                   <li key={index}>
                                     <div className="flex items-start">
                                       <div className="ml-3">
-                                        <p className="text-base leading-7 text-gray-600">{subcategory.title}</p>
+                                        <p className="text-base font-semibold leading-7 text-gray-600">{subcategory.title}</p>
                                         <p className="mt-2 text-base leading-7 text-gray-600">
                                           {subcategory.description}
                                         </p>
