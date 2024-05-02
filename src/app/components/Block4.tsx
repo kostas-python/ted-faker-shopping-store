@@ -63,6 +63,13 @@ const products = [
     return (
       <div className="bg-white">
         <div className="mx-auto max-w-7xl overflow-hidden px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+        <div className="sm:flex sm:items-baseline sm:justify-between">
+            <h2 className="text-2xl font-bold tracking-tight text-gray-900">Bags</h2>
+            <a href="#" className="hidden text-sm font-semibold text-indigo-600 hover:text-indigo-500 sm:block">
+              Browse all Bags
+              <span aria-hidden="true"> &rarr;</span>
+            </a>
+          </div>
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 lg:gap-x-8">
             {products.map((product) => (
               <a key={product.id} href={product.href} className="group text-sm">
