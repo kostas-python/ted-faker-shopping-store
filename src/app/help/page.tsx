@@ -32,11 +32,13 @@ const faqs = [
         },
         {
           title: 'Can i track my order?',
-          description: 'You can track your Ted Baker online order using your order number and email address by clicking HERE. If you have not yet received an Order Dispatch email do not fret, it will be with you soon (up to 5 days after you have placed your order).If you need any help, you can Contact Us.'
+          description: 'You can track your Ted Baker online order using your order number and email address in your account page. If you have not yet received an Order Dispatch email do not fret, it will be with you soon (up to 5 days after you have placed your order).If you need any help, you can Contact Us.'
         },
         {
           title: 'Shipping costs',
-          description: 'Standard delivery 9.95£, free for oders over 100£, 5 working days'
+          description: 'Standard delivery 9.95£, free for oders over 100£, 5-10 working days',
+          description1: 'Express delivery 17.95£, 2-4 working days',
+          
         }
       ],
   },
@@ -114,6 +116,9 @@ export default function Help() {
                                         <p className="text-base leading-7 text-gray-600">{subcategory.title}</p>
                                         <p className="mt-2 text-base leading-7 text-gray-600">
                                           {subcategory.description}
+                                        </p>
+                                        <p className="mt-2 text-base leading-7 text-gray-600">
+                                          {subcategory.description1}
                                         </p>
                                       </div>
                                     </div>
