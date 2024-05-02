@@ -7,6 +7,7 @@ import Footer from './components/Footer';
 import Image1 from './components/Image1';
 import Page1 from './components/Page1';
 import Video from './components/Video';
+import Block3 from './components/Block3';
 
 
 
@@ -27,8 +28,9 @@ export default function Home() {
            <Page1 />
            
           <Block2 />
-          <Block1 />
           
+          <Block3 />
+          <Block1 />
         
         <Footer />
       
